@@ -1,0 +1,68 @@
+console.log("Hello, World!");
+
+
+
+let x = 10;
+let y = "hello";
+
+
+
+let age = 18;
+if (age < 18) {
+  console.log("You are a minor");
+} else {
+  console.log("You are an adult");
+}
+
+
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+
+
+function greet(name) {
+  console.log(`Hello, ${name}!`);
+}
+greet("John");
+
+
+
+let fruits = ["apple", "banana", "orange"];
+console.log(fruits[0]); // Output: "apple"
+fruits.push("grape");
+console.log(fruits); // Output: ["apple", "banana", "orange", "grape"]
+
+
+
+for (let i = 0; i < 5; i++) {
+  console.log(i);
+}
+
+
+
+let i = 0;
+while (i < 5) {
+  console.log(i);
+  i++;
+}
+
+
+
+const PI = 3.14159;
+console.log(PI);
+
+
+
+let age = 18;
+if (age < 18) {
+  console.log("You are a minor");
+} else if (age >= 18 && age < 65) {
+  console.log("You are an adult");
+} else {
+  console.log("You are a senior citizen");
+}
+
+
+
